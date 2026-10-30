@@ -1,0 +1,32 @@
+brand,product,status,ph_value,source_url,note
+Alpha Skin Care,Revitalizing Body Lotion 12% Glycolic AHA,PH_PUBLISHED,4.0,https://www.alphaskin.com/products/renewal-body-lotion-12-glycolic-aha,"RE-VERIFIED 05/09: ""a pH level of 4.0"""
+DCL Skincare,AHA Resurfacing Lotion 20,PH_PUBLISHED,3.7 (3.5-3.9),https://www.dclskincare.com/products/aha-resurfacing-lotion-20,States tolerance range
+Naturium,The Smoother Glycolic Acid Body Lotion 10%,PH_PUBLISHED,3.50-4.00,https://naturium.com/products/the-smoother-glycolic-acid-body-lotion,In SPECS table
+Perfect Image,Glycolic Acid 30% Gel Peel,PH_PUBLISHED,1.7-2.0,https://perfectimage.com/products/glycolic-30-gel-peel,In product description
+TOUCH,Keratosis Pilaris Exfoliating Body Wash,PH_PUBLISHED,3.5,https://www.mytouchskincare.com/products/kp-exfoliating-body-wash,Stated as low pH 3.5
+The INKEY List,10% Glycolic Acid Toner,PH_PUBLISHED,3.6-4.0,https://www.theinkeylist.com/products/glycolic-acid-toner,"RE-VERIFIED 05/09: ""WHAT IS THE pH LEVEL? 3.6-4.0"""
+The Ordinary,Glycolic Acid 7% Exfoliating Toner,PH_PUBLISHED,3.5-3.9,https://theordinary.com/en-us/glycolic-acid-7-exfoliating-toner-100418.html,Positive control
+Botanic Tree,Hydrating Glycolic Acid Cleanser,CLAIM_NO_NUMBER,,https://botanictree.com/products/glycolic-acid-exfoliating-cleanser,"Says ""pH-balanced"", no number"
+Era Organics,Glycolic Acid Peel AHA BHA Exfoliant,CLAIM_NO_NUMBER,,https://www.eraorganics.com/products/glycolic-acid-chemical-peel,"Says ""pH-balanced"", no number"
+Medix 5.5,Glycolic + Lactic Acid Exfoliating Body Wash,CLAIM_NO_NUMBER,,https://medix55.com/products/glycolic-lactic-acid,"Says ""pH Optimized"", no number"
+Replenix,Glycolic Acid 20% Resurfacing Cream,CLAIM_NO_NUMBER,,https://replenix.com/products/glycolic-acid-20-resurfacing-cream,"Says ""pH-balanced"", no number"
+L'Oreal Paris,Revitalift 10% Pure Glycolic Acid Serum,CLAIM_NO_NUMBER,,https://www.lorealparisusa.com/skin-care/exfoliant/revitalift-derm-intensives-10-pure-glycolic-acid-serum,States pH is proprietary
+Advanced Clinicals,10% Glycolic + Lactic Acid Serum,NO_PH_ON_PAGE,,https://advancedclinicals.com/products/glycolic-serum,
+CeraVe,Skin Renewing Nightly Exfoliating Treatment 5% AHA,NO_PH_ON_PAGE,,https://www.cerave.com/skincare/facial-serums/skin-renewing-nightly-exfoliating-treatment,
+First Aid Beauty,Facial Radiance Pads,NO_PH_ON_PAGE,,https://www.firstaidbeauty.com/products/facial-radiance-pads-with-glycolic-lactic-acids-compostable,
+Glytone,Exfoliating Body Lotion 17.5% PFAV,NO_PH_ON_PAGE,,https://glytone.com/products/exfoliating-body-lotion,Publishes free acid value not pH
+Good Molecules,Glycolic Exfoliating Toner,NO_PH_ON_PAGE,,https://www.goodmolecules.com/s/good-molecules-glycolic-exfoliating-toner-120ml,
+Mario Badescu,Glycolic Acid Toner,NO_PH_ON_PAGE,,https://www.mariobadescu.com/products/glycolic-acid-toner,
+NUVADERMIS,35% Glycolic Acid Peel Pads,NO_PH_ON_PAGE,,https://nuvadermis.com/products/glycolic-acid-peel-pads,
+Natural Outcome,Glycolic Acid 12% AHA Renewal Serum,NO_PH_ON_PAGE,,https://naturaloutcome.com/products/glycolic-acid-renewal-serum,
+Nip + Fab,Glycolic Fix Night Pads Extreme,NO_PH_ON_PAGE,,https://us.nipandfab.com/products/glycolic-fix-night-pads-extreme,
+QRxLabs,Glycolic Acid 20% Resurfacing Pads,NO_PH_ON_PAGE,,https://qrxlabs.com/products/glycolic-acid-20-resurfacing-pads,
+Serious Skincare,Glycolic Cleanser,NO_PH_ON_PAGE,,https://seriousskincare.com/products/glycolic-cleanser-dry-lo,
+Thayers,2% AHA Exfoliating and Brightening Toner,NO_PH_ON_PAGE,,https://www.thayers.com/shop-all/toners/exfoliating-2-percent-aha-toner/12-oz,
+YEOUTH,Glycolic Acid 30% Gel Peel,NO_PH_ON_PAGE,,https://yeouth.com/products/glycolic-acid-gel-peel,
+Dove,Glycolic Serum Body Wash,PRODUCT_NOT_ON_BRAND_SITE,,https://www.dove.com/,Intended negative control; product absent from dove.com
+Beauty Facial Extreme,Glycolic Acid 15% Anti-Aging Cream,PRODUCT_NOT_ON_BRAND_SITE,,https://beautyfacialextreme.com/,
+Divine Derriere,Glycolic Acid Peel 70%,PRODUCT_NOT_ON_BRAND_SITE,,https://divinederriere.com/,30% product page 404s
+Minimalist,Glycolic Acid 8% Exfoliating Toner,PH_PUBLISHED,3.4-4.0,https://minimalist.in/,Supplied by the editor 05/09 from a browser session; robots.txt blocks automated fetch. Product: Glycolic Acid 8% Exfoliating Liquid
+SilkyShark,Glycolic Acid 10% + Salicylic 2%,NO_BRAND_SITE,,https://thesilkysharkshop.com/,"Front-end wrapper opening an Amazon iframe, not a brand site (editor, 05/09). Excluded"
+Voibella Beauty,Glycolic Acid Peel 7.5% AHA,NOT_TRADING,,https://www.voibellabeauty.com/,"Shop closed (editor, 05/09). Excluded from denominator"
