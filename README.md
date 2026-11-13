@@ -4,12 +4,15 @@ A dated snapshot of whether glycolic acid skincare brands publish the pH of thei
 
 The percentage on a glycolic acid label tells you how much glycolic acid is in the formula. How much of it is in the free, un-ionised form depends on the formula's pH, so a percentage without a pH is half the information.
 
+**Read it as a page:** [glycolicacidcleanser-com.github.io/glycolic-acid-ph-disclosure-audit](https://glycolicacidcleanser-com.github.io/glycolic-acid-ph-disclosure-audit/) (the table, the figures and the method, generated from the CSV).
+
 ## What is in this repository
 
 | File | What it is |
 |---|---|
 | `data/ph-disclosure-audit-2026-09.csv` | One row per brand and product audited on 5 September 2026 (31 rows) |
 | `README.md` | This file: method, columns, status codes and caveats |
+| `docs/index.html` | The same data as a web page, built by `tools/build_page.py`; do not edit by hand |
 
 ## Headline figures
 
