@@ -41,6 +41,7 @@ The five rows that are not in the 26 are excluded from the denominator: three pr
 | `PH_PUBLISHED` | The brand's page states a numeric pH |
 | `CLAIM_NO_NUMBER` | The page makes a pH claim ("pH-balanced") but gives no number |
 | `NO_PH_ON_PAGE` | The page was read and says nothing about pH |
+| `PH_PROVIDED_ON_REQUEST` | The page says nothing about pH, but the brand gave a figure when we asked by email. Added after the 5 September audit (one row, 15 November 2026); not counted among the 8 published pH values |
 | `PRODUCT_NOT_ON_BRAND_SITE` | The product could not be found on the brand's own site; excluded from the 26 |
 | `NO_BRAND_SITE` | There is no brand site, only a storefront wrapper; excluded from the 26 |
 | `NOT_TRADING` | The shop had closed; excluded from the 26 |
@@ -49,7 +50,7 @@ The five rows that are not in the 26 are excluded from the denominator: three pr
 
 1. For each tracked product, the brand's own website was read on 5 September 2026.
 2. A pH counts as published only when the brand's own page states it as a number. Marketing language alone is recorded as `CLAIM_NO_NUMBER`.
-3. Where a value was re-checked on a later date, the note says so. One brand's site blocks automated reading, so its value was read by hand from a browser session; the note says that too.
+3. Where a value was re-checked or added on a later date, the note says so. The one row added after 5 September is YEOUTH, from a customer-service reply of 15 November 2026. One brand's site blocks automated reading, so its value was read by hand from a browser session; the note says that too.
 
 ### Free acid, for readers who want to compute it
 

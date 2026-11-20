@@ -11,6 +11,7 @@ LABEL = {
     "PH_PUBLISHED": "pH published",
     "CLAIM_NO_NUMBER": "pH claim, no number",
     "NO_PH_ON_PAGE": "no pH on the page",
+    "PH_PROVIDED_ON_REQUEST": "pH given on request (email, 15 Nov 2026)",
     "PRODUCT_NOT_ON_BRAND_SITE": "product not on the brand's site",
     "NO_BRAND_SITE": "no brand site",
     "NOT_TRADING": "shop closed",
@@ -68,7 +69,7 @@ code{{background:var(--hi);padding:2px 6px;border-radius:4px}}footer{{margin-top
 <ul class="fig">
 <li><b>{published} of {readable}</b>readable brand pages state a numeric pH</li>
 <li><b>{c["CLAIM_NO_NUMBER"]}</b>make a pH claim such as "pH-balanced" and give no number</li>
-<li><b>{c["NO_PH_ON_PAGE"]}</b>say nothing about pH</li>
+<li><b>{c["NO_PH_ON_PAGE"] + c["PH_PROVIDED_ON_REQUEST"]}</b>say nothing about pH on the page; {c["PH_PROVIDED_ON_REQUEST"]} of them later gave an approximate figure when asked by email</li>
 <li><b>{len(rows)}</b>brands tracked; {excluded} could not be read on a brand site and are left out of the {readable}</li>
 </ul>
 <p>The full analysis, including what a published pH range does and does not tell a shopper, is on the <a href="{SITE}/glycolic-acid-statistics/">glycolic acid statistics page</a>. To turn a label percentage and a pH into an estimated free acid figure, use the <a href="{SITE}/glycolic-acid-percentage-guide/#calculator">free acid calculator</a>.</p>
@@ -88,7 +89,7 @@ code{{background:var(--hi);padding:2px 6px;border-radius:4px}}footer{{margin-top
 <p>Free acid at a stated pH follows the Henderson-Hasselbalch equation at glycolic acid's pKa of 3.83: <code>free acid (%) = label % &divide; (1 + 10^(pH &minus; 3.83))</code>. This is arithmetic from a stated pH, not a lab measurement. The method was published by cosmetic chemist Michelle Wong at <a href="https://labmuffin.com/free-acid-calculator-for-exfoliants-at-specific-ph-levels/" rel="noopener">Lab Muffin Beauty Science</a>; what this audit adds is each brand's own published pH.</p>
 <h2>Caveats</h2>
 <ul>
-<li>A snapshot from 5 September 2026. Brands change their pages, and it has not been recomputed since.</li>
+<li>A snapshot from 5 September 2026. Brands change their pages, and it has not been recomputed since. The one later addition is YEOUTH, whose customer service answered our email on 15 November 2026 with an approximate pH of 2.</li>
 <li>One product per brand, not each brand's whole range.</li>
 <li>Brands selling glycolic acid products on Amazon US, not the whole market.</li>
 </ul>
